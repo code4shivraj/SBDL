@@ -1,6 +1,7 @@
 from lib import ConfigLoader
 
 
+
 def get_account_schema():
     schema = """load_date date,active_ind int,account_id string,
         source_sys string,account_start_date timestamp,
